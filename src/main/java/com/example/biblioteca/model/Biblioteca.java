@@ -9,7 +9,7 @@ public class Biblioteca {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private Long Id;
+    private Long id;
 
     @Column(nullable = false)
     private String titulo;
@@ -41,7 +41,7 @@ public class Biblioteca {
         this.titulo = titulo;
         this.autor = autor;
         this.genero = genero;
-        this.isnb = isbn;
+        this.isbn = isbn;
         this.ano = ano;
         this.emprestimo = emprestimo;
         this.devolucao = devolucao;
@@ -53,4 +53,55 @@ public class Biblioteca {
     public void setId(Long id){
         this.id = id;
     }
+
+    public String getTitulo(String titulo){
+        return titulo;
+    }
+    public void setTitulo(){
+        this.titulo = titulo;
+    }
+
+    public String getAutor(String autor){
+        return autor;
+    }
+    public void setAutor(){
+        this.autor = autor;
+    }
+
+    public String getGenero(String genero){
+        return genero;
+    }
+    public void setGenero(){
+        this.genero = genero;
+    }
+
+    public String getIsbn(String isbn){
+        return isbn;
+    }
+    public void setIsbn(){
+        this.isbn = isbn;
+    }
+
+    public String getAno(String ano){
+        return ano;
+    }
+    public void setAno(){
+        this.ano = ano;
+    }
+
+    public Boolean getEmprestimo(Boolean emprestimo){
+        return emprestimo;
+    }
+    public void setEmprestimo(){
+        this.emprestimo = emprestimo;
+    }
+
+    public Boolean getDevolucao(Boolean devolucao){
+        return Biblioteca.this.devolucao;
+    }
+    public void setDevolucao(){
+        this.devolucao = devolucao;
+    }
+
 }
+
