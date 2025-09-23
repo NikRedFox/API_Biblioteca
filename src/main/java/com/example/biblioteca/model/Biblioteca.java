@@ -48,58 +48,50 @@ public class Biblioteca {
     }
 
     public Long getId(){
-        return id;
-    }
+        return id;    }
     public void setId(Long id){
         this.id = id;
     }
 
-    public String getTitulo(String titulo){
-        return titulo;
-    }
-    public void setTitulo(){
+    public String getTitulo(){
+        return titulo;    }
+    public void setTitulo(String titulo){
         this.titulo = titulo;
     }
 
-    public String getAutor(String autor){
-        return autor;
-    }
-    public void setAutor(){
+    public String getAutor(){
+        return autor;    }
+    public void setAutor(String autor){
         this.autor = autor;
     }
 
-    public String getGenero(String genero){
-        return genero;
-    }
-    public void setGenero(){
+    public String getGenero(){
+        return genero;    }
+    public void setGenero(String genero){
         this.genero = genero;
     }
 
-    public String getIsbn(String isbn){
-        return isbn;
-    }
-    public void setIsbn(){
+    public String getIsbn(){
+        return isbn;    }
+    public void setIsbn(String isbn){
         this.isbn = isbn;
     }
 
-    public String getAno(String ano){
-        return ano;
-    }
-    public void setAno(){
+    public String getAno(){
+        return ano;    }
+    public void setAno(String ano){
         this.ano = ano;
     }
 
-    public Boolean getEmprestimo(Boolean emprestimo){
-        return emprestimo;
-    }
-    public void setEmprestimo(){
+    public Boolean getEmprestimo(){
+        return emprestimo;    }
+    public void setEmprestimo(Boolean emprestimo){
         this.emprestimo = emprestimo;
     }
 
-    public Boolean getDevolucao(Boolean devolucao){
-        return Biblioteca.this.devolucao;
-    }
-    public void setDevolucao(){
+    public Boolean getDevolucao(){
+        return Biblioteca.this.devolucao;    }
+    public void setDevolucao(Boolean devolucao){
         this.devolucao = devolucao;
     }
 
